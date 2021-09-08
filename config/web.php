@@ -4,6 +4,7 @@ $params = require __DIR__ . '/params.php';
 $db = require __DIR__ . '/db.php';
 
 $config = [
+    'language' => 'ru-RU',
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
@@ -14,7 +15,7 @@ $config = [
     'components' => [
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
-            'cookieValidationKey' => 'vIFYkjcg-FRyxb6Tdl4nQKDf6VzKj0kD',
+            'cookieValidationKey' => 'ACUQVM85ebEcBIt-JyIfHLPLHvwzE2PS',
         ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
