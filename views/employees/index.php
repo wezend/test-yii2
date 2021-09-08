@@ -25,12 +25,12 @@ $this->params['breadcrumbs'][] = $this->title;
             'position',
             [
                 'attribute'=>'status',
-                'filter'=>array('1' =>"Неактивен",'0' =>"Активен"),
+                'filter'=>array('0' =>"Неактивен",'1' =>"Активен"),
                 'value' => function ($data) {
                     if($data->status == 0){
-                        return "Активен";
+                        return "Неактивен";
                     }
-                    return "Неактивен";
+                    return "Активен";
                 }
             ],
             'salary',

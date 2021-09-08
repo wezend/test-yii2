@@ -23,8 +23,8 @@ use borales\extensions\phoneInput\PhoneInput;
     <?= $form->field($model, 'position')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'status')->dropDownList([
-        '0' => 'Активен',
-        '1' => 'Неактивен'
+        '0' => 'Неактивен',
+        '1' => 'Активен'
     ]); ?>
 
     <?= $form->field($model, 'salary')->textInput() ?>
