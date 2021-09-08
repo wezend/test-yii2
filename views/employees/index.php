@@ -12,7 +12,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <p>
         <?= Html::a('Добавить сотрудника', ['create'], ['class' => 'btn btn-success']) ?>
-        <?= Html::a('Скачать отчёт о зароботной плате сотрудников', ['make-report'], ['class' => 'btn btn-primary']) ?>
+        <?= Html::a('Скачать отчёт о заработной плате сотрудников', ['make-report'], ['class' => 'btn btn-primary']) ?>
     </p>
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
